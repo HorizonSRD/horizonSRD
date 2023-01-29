@@ -1,0 +1,33 @@
+planos de contratos:
+vamos criar 4 planos com valores diferentes
+
+basic:
+
+- apenas uma aplicação (site, app ou software)
+- visitas tecnicas no valor de 50 reais cada 
+- total suporte telefonico de 12 horas 
+- updates na aplicação no valor de 150 reais 
+- valor mensal de R$5.000
+
+midle:
+
+- apenas duas aplicações (site, app, ou software)
+- visitas tecnicas no valor de 25 reais cada
+- total suporte telefonico de 12 horas 
+- updates na aplicação no valor de 75 reais 
+- valor mensal de R$10.000
+
+advaced:
+
+- apenas duas aplicações (site, app, ou software)
+- visitas tecnicas gratuitas
+- total suporte telefonico de 24 horas 
+- updates na aplicação no valor de 25 reais 
+- valor mensal de R$25.000
+
+full:
+- as três aplicações (site, app, ou software)
+- visitas tecnicas gratuitas e acesso remoto
+- total suporte telefonico de 24 horas 
+- updates na aplicação gratuitas
+- valor mensal de R$50.000
