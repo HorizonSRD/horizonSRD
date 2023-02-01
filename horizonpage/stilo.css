@@ -1,0 +1,266 @@
+@font-face {
+    font-family: Ergonomique1;
+    src: local('Ergonomique-Semibold.otf'), url('Ergonomique-Semibold.otf');
+
+} html {
+    padding: 0%;
+} 
+
+.header-top{
+   width: 100%;
+   height: 200px;
+   text-align: center;
+   padding-left: 90px;
+   padding-right: 90px;
+   text-align: center;
+   
+   
+
+} .head-main {
+    position: relative;
+    min-width: 320px;
+    max-width: 100%;
+    height: 340x;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0%;
+    display: block;
+    
+    
+
+
+} .log {
+    text-align: center;
+
+
+}  .head-main img {
+    min-width: auto;
+    max-width: auto;
+    height: 172px;
+    float: inline-start;
+    
+
+}  .nav-wrapper {
+    background-image: linear-gradient(to right, rgb(18, 32, 156), rgb(25, 15, 54));
+    align-items: center;
+
+} .inicio{
+    font: normal 18px Ergonomique1;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    left: 50px;
+    position: relative;
+    overflow: hidden;
+
+}   .nav-wrapper ul li a {
+    font: normal 18px Ergonomique1;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    top: 25px;
+    position: relative;
+    
+
+} .side-nav {
+    background-image: linear-gradient(to right, rgb(18, 32, 156), rgb(25, 15, 54));
+    
+
+} ul.side-nav li:hover a {
+   color: rgb(255, 241, 41);
+   transition: all .1s;
+
+} .caixa {
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(18, 32, 156), rgb(25, 15, 54));
+    overflow: hidden;
+
+} .caixa img {
+    max-width: 100%;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+} .caixa:hover img {
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
+} .labelp {
+    width: 100%;
+    
+    height: 70px;
+    position: absolute;
+    top: auto;
+    line-height: 30px;
+    height: 30px;
+    align-items: center;
+    margin: auto;
+    
+   
+
+} .labelp label {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:#fff;
+    font: normal 15pt Arial;
+    text-align: center;
+    top: auto;
+    min-width: 320px;
+    max-width: 100%;
+    line-height: 30px;
+    height: auto;
+
+
+} .trecho1 {
+    width: 100%;
+    height: 6px;
+    background-image: linear-gradient(to right, rgb(18, 32, 156), rgb(25, 15, 54));
+} .trecho {
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(18, 32, 156), rgb(25, 15, 54));
+
+} #sec {
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+} .hide-on-med-and-down li:hover a {
+    color: rgb(157, 158, 255);
+    transition: all .1s;
+
+
+} .teste {
+    border-radius: 18px;
+    border-style: solid;
+    width: 240px;
+    height: 320px;
+    color: blue;
+    position: relative;
+    left: 780px;
+    top: 50px;
+    display: flex;
+    
+} .principais {
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    height: auto;
+    width: 250px;
+    text-align: center;
+    align-items:flex-end;
+    margin-bottom: 7%;
+    position: relative;
+    top: 30px;
+    display:inline-block;
+    margin-right: 100px;
+    margin-left: 50px;
+    left: 20px;
+    
+    
+    
+
+} .principais img {
+    border-radius: 50%;
+    position: relative;
+    width: 135px;
+    height: 135px;
+    -moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+} .produtos .texto {
+    padding: 7%;
+    
+
+} .texto p{
+    font: normal 16pt Calibri;
+    color: rgba(131, 11, 57, 0.897);
+}  .texto a{
+    font: bold 16pt Arial;
+    color: rgb(31, 28, 28);
+    text-decoration: none;
+    
+
+} .texto:hover a {
+    transition: 0.1s;
+    color: rgb(0, 70, 221);
+    
+
+
+}.rodp{
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    max-height: calc(100%);
+    text-align: center;
+    
+
+} .conter {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    margin: 0%;
+    max-height: calc(100%)
+    
+} .principais:hover img {
+
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
+} .principals{
+
+    background-color: rgb(53, 53, 53);
+    border-radius: 7px;
+    height: auto;
+    width: 300px;
+    text-align: left;
+    margin-bottom: 7%;
+    position: relative;
+    top: 30px;
+    display:inline-block;
+    margin-right: 60px;
+    
+
+} .h2_rodape {
+
+    color:rgb(255, 255, 255);
+    font: bold 22pt Calibri;
+    position: relative;
+    
+    
+
+
+} #t {
+    font-size: 12pt;
+    color:rgb(247, 185, 17); 
+    margin-top: 55px;
+
+} #t2 {
+    font-size: 12pt;
+    color:rgb(247, 185, 17); 
+    margin-top: -10px;
+
+} #t2 a {
+   
+    color: rgb(32, 136, 255);
+
+} #t2:hover a {
+
+    color: rgb(218, 255, 9);
+    transition: all .1s;
+} .cicones {
+    align-items: center;
+    
+
+} .icones_ {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 49px;
+}
