@@ -76,7 +76,7 @@
 
 
 } #submit:hover {
-    background-image: linear-gradient(to right, rgb(54, 80, 196), rgb(77, 24, 94));
+    background-image: linear-gradient(to right, rgb(255, 148, 27), rgb(77, 24, 94));
 
 } .caixa-1 {
     height: 30px;
