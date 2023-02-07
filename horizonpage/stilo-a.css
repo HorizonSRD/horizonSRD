@@ -64,7 +64,7 @@
     top: -20px;
     font-size: 10px;
 
-} #submit {
+} .box button {
     background-image: linear-gradient(to right, rgb(33, 107, 150), rgb(45, 15, 54));
     width: 100%;
     padding: 15px;
@@ -75,7 +75,7 @@
     cursor: pointer;
 
 
-} #submit:hover {
+} .box button:hover {
     background-image: linear-gradient(to right, rgb(255, 148, 27), rgb(77, 24, 94));
 
 } .caixa-1 {
