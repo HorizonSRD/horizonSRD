@@ -175,7 +175,7 @@
 
 } .texto p{
     font: normal 16pt Calibri;
-    color: rgba(30, 67, 122, 0.897);
+    color: rgba(131, 11, 57, 0.897);
 }  .texto a{
     font: bold 16pt Arial;
     color: rgb(31, 28, 28);
@@ -190,7 +190,7 @@
 
 }.rodp{
     width: 100%;
-    background-color: rgb(21, 18, 63);
+    background-color: rgb(53, 53, 53);
     max-height: calc(100%);
     text-align: center;
     
@@ -211,7 +211,7 @@
 
 } .principals{
 
-    background-color: rgb(21, 18, 63);
+    background-color: rgb(53, 53, 53);
     border-radius: 7px;
     height: auto;
     width: 300px;
