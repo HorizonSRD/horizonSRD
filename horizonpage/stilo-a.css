@@ -99,7 +99,7 @@
 
 }
   .header-top{
-   width: 100%;
+   width: auto;
    height: auto;
    text-align: center;
    padding-left: 90px;
@@ -110,8 +110,7 @@
 
 } .head-main {
     position: relative;
-    min-width: 320px;
-    max-width: auto;
+    width: auto;
     height: 200px;
     background-color: rgb(255, 255, 255);
     text-align: center;
