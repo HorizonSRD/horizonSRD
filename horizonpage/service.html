@@ -2,12 +2,59 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
     <title>Nossos serviços</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
+    <link rel="stylesheet" href="stilo.css">
+    <link rel="icon" href="https://raw.githubusercontent.com/HorizonSRD/horizonSRD/main/horizonpage/img/favicon.ico">
 </head>
 <body>
-    <h1>Seja bem-vindo ao universo de serviços Horizon</h1>
-    
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+
+
+
+<header>
+
+    <div class="header-top">
+        <div class="head-main">
+            <picture>
+                <source media="(max-width: 1020px)" srcset="https://github.com/HorizonSRD/horizonSRD/blob/main/horizonpage/img/logo-adapt.png?raw=true" type="image/png"/>
+                <img src=https://github.com/HorizonSRD/horizonSRD/blob/main/horizonpage/img/logo.png?raw=true alt="Logo" title="logomarca Horizon" />
+        </picture>  
+        </div>
+    </div>
+
+    <nav>
+      <div class="nav-wrapper">
+        <a href="https://horizonsrd.github.io/horizonSRD/" class="inicio">Início</a>
+        <a href="https://horizonsrd.github.io/horizonSRD/" data-activates="menu-mobile" class="button-collapse">
+            <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+            <!-- <li><a href="#">A empresa</a><li>-->
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="horizonpage/forms.html">Contato</a></li>
+        </ul>
+        <ul class="side-nav" id="menu-mobile">
+            <!-- <li><a href="#">A empresa</a><li>-->
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="horizonpage/forms.html" target="_blank">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+
+</header>
+
+<script>
+    $(function(){
+         $(".button-collapse").sideNav();
+    });
+    </script>
 </body>
 </html>
