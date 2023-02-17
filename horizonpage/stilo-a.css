@@ -79,6 +79,22 @@
 } .box button:hover {
     background-image: linear-gradient(to right, rgb(255, 148, 27), rgb(77, 24, 94));
 
+} .carregar {
+    width: 30px;
+    animation: rodar 1.8s infinite linear;
+
+}    
+
+@keyframes rodar {
+    from {
+        transform: rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+
 } .caixa-1 {
     height: 30px;
 
