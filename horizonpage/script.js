@@ -6,8 +6,8 @@ const addCarregar = () =>  {
 addCarregar();
 
 
-const lidarSubimit = (event) => {
-    event.preventDefault();
+const lidarSubimit = () => {
+    
     alert('Enviando formulário...');
 }
 
