@@ -6,7 +6,7 @@
     background: rgb(19, 24, 97);
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 } 
@@ -92,7 +92,7 @@
     border: 0;
     border-radius: 15px;
     background-color: rgb(42, 241, 24);
-    font-size: 20px;
+    font-size: 40vw;
     height: 40px;
     color: rgb(255, 255, 255);
     cursor: pointer;
@@ -104,4 +104,42 @@
 
 .botao-login:hover {
     background-image: linear-gradient(to right, rgb(255, 148, 27), rgb(77, 24, 94));
+}
+.rodape-card {
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    
+    
+}
+
+.rec-senha a {
+    text-decoration: none;
+    font: normal 11pt Arial;
+    color: aqua;
+    
+    
+}
+
+.rec-senha a:hover {
+    color: rgb(255, 241, 41);
+    transition: all .3s;
+}
+
+.rodape-card > p {
+    color: rgb(255, 255, 255);
+    margin-left: 12px;
+    font: normal 11pt Arial;
+}
+
+.rodape-card > a {
+    text-decoration: none;
+    margin-left: 10px;
+    font: normal 11pt Arial;
+    color: aqua;
+}
+
+.rodape-card > a:hover {
+    color: rgb(255, 241, 41);
+    transition: all .3s;
 }
