@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, Helvetica, sans-serif; 
+} 
+body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(19, 24, 97);
+        
+} 
+.conteiner {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgb(59, 18, 243) ;
+    border: 1.7px;
+    border-color: rgb(7, 73, 255);
+    border-style: groove;
+    border-radius: 8px;
+ }
+
+ .left-block {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(125, 80, 250);
+    border-radius: 8px;
+ }
+
+ .left-block img {
+    width: 31rem;
+    border-radius: 8px;
+ } 
+ .form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(12, 7, 59);
+    padding:  3rem;
+    border-radius: 8px;
+ }
+
+ .form-header {
+    display: flex;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+ }
+
+ .form-header h1 {
+    color: rgb(222, 247, 253);
+    
+ }
+
+ .botao-login {
+    display: flex;
+    align-items: center;
+    border-radius: 2.5px;
+    
+ }
+
+ .botao-login button {
+    border: none;
+    background-color: rgb(233, 247, 42);
+    width: 5rem;
+    height: 30px;
+    border-radius: 2.5px;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    
+ }
+
+ .botao-login button:hover {
+    background-image: linear-gradient(to right, rgb(255, 148, 27), rgb(77, 24, 94));
+    transition: all .1s;
+ }
+
+ .botao-login button a {
+    text-decoration: none;
+    
+    color: rgb(16, 10, 66);
+    font-weight: 500;
+    font-size: 16px;
+ }
+ .botao-login button a:hover {
+    color: white;
+    transition: all .1s;
+ }
+
+ .form-header h1::after{
+    content: '';
+    display: block;
+    width: 4rem;
+    position: absolute;
+    height: 0.3rem;
+    background-color: rgb(233, 247, 42);
+    margin: 0 auto;
+    border-radius: 10px;
+
+ }
+
+ .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+ }
+.input-caixa {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-caixa input {
+    margin: 0.6rem 0;
+    padding: 0.8 1.2rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 6px #000000;
+    height: 6vh;
+    width: 100%;
+}
+.input-caixa input:hover {
+    background-color:rgb(221, 226, 241);
+}
+
+.input-caixa label,
+.titulo h5 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: rgb(233, 247, 42);
+}
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0 .5rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input {
+    margin: 0.35rem;
+}
+.gender-input label {
+    font-weight: 500;
+    font-size: 12pt;
+    color: rgb(206, 198, 240);
+}
+
+.c-button button {
+    width: 100%;
+    margin-top: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    height: 6vh;
+    padding: .62rem;
+    cursor: pointer;
+    background-color: rgb(233, 247, 42);
+    
+}
+.c-button button:hover {
+    background-image: linear-gradient(to right, rgb(255, 148, 27), rgb(77, 24, 94));
+    transition: all .1s;
+}
+.c-button button a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 14pt;
+    padding-bottom: 20px;
+}
+.c-button button a:hover {
+    color: #ffffff;
+} 
+.c-button {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
