@@ -16,7 +16,7 @@ body {
         
 } 
 .conteiner {
-    width: 80%;
+    width: 82%;
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgb(59, 18, 243) ;
@@ -32,7 +32,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    background-color: rgb(125, 80, 250);
+    background-color: #7688ee79;
     border-radius: 8px;
  }
 
