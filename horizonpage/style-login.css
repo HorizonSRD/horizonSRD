@@ -55,6 +55,38 @@
     border-radius: 14px;
     border-style:groove ;
     box-shadow: 0 10px 10px rgb(19, 32, 150) ;
+} .icones  {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;align-content: center;
+    
+  
+} .googgle img {
+    
+    width: 50px;
+} .face img {
+    
+    width: 50px;
+}.icones a{
+    text-decoration: none;
+    
+    width: 15%;
+} .googgle {
+    display: flex;
+    align-items: end;
+    align-content: end;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+} .face {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0;
 }
 
 .text-field {
