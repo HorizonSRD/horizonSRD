@@ -270,5 +270,13 @@ body {
     .gender-group {
         flex-direction: column;
     }
+} 
+
+@media screen and (max-width: 496px) {
+    .form-header h1 {
+        display: none;
+
+    }
 }
+
 
