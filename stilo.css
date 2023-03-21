@@ -189,7 +189,7 @@
 
 }.rodp{
     width: 100%;
-    background-color: rgb(21, 18, 63);
+    background-color: rgb(32, 50, 209);
     
     text-align: center;
     justify-content: center;
@@ -213,7 +213,7 @@
 
 } .principals{
 
-    background-color: rgb(21, 18, 63);
+    background-color:rgb(32, 50, 209);
    
     height: auto;
     width: 300px;
@@ -236,21 +236,21 @@
 
 } #t {
     font-size: 12pt;
-    color:rgb(253, 250, 70); 
+    color:rgb(0, 0, 0); 
     margin-top: 55px;
 
 } #t2 {
     font-size: 12pt;
-    color:rgb(253, 250, 70); 
+    color:rgb(0, 0, 0); 
     margin-top: -10px;
 
 } #t2 a {
    
-    color: rgb(32, 136, 255);
+    color: rgb(255, 251, 32);
 
 } #t2:hover a {
 
-    color: rgb(243, 5, 164);
+    color: rgb(255, 255, 255);
     transition: all .1s;
 } .cicones {
     align-items: center;
