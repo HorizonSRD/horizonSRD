@@ -2,8 +2,10 @@
     font-family: Ergonomique1;
     src: local('Ergonomique-Semibold.otf'), url('Ergonomique-Semibold.otf');
 
-} html {
-    padding: 0%;
+} * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 } 
 
 .header-top{
@@ -41,7 +43,7 @@
     
 
 }  .nav-wrapper {
-    background-image: linear-gradient(to right, rgb(18, 32, 156), rgb(25, 15, 54));
+    background-image: linear-gradient(to right, rgb(16, 252, 161), rgb(7, 11, 206));
     align-items: center;
 
 } .inicio{
@@ -61,7 +63,7 @@
     
 
 } .side-nav {
-    background-image: linear-gradient(to right, rgb(18, 32, 156), rgb(25, 15, 54));
+    background-image: linear-gradient(to right, rgb(16, 252, 161), rgb(7, 11, 206));
     
 
 } ul.side-nav li:hover a {
@@ -70,7 +72,7 @@
 
 } .caixa {
     width: 100%;
-    background-image: linear-gradient(to right, rgb(18, 32, 156), rgb(25, 15, 54));
+    background-image: linear-gradient(to right, rgb(16, 252, 161), rgb(7, 11, 206));
     overflow: hidden;
 
 } .caixa img {
@@ -189,10 +191,14 @@
 
 
 }.rodp{
-    width: 100%;
+    width: 100vw;
+    display: flex;
     background-color: rgb(53, 53, 53);
     max-height: calc(100%);
     text-align: center;
+    justify-content: center;
+    
+    
     
 
 } .conter {
@@ -201,7 +207,8 @@
     align-items: center;
     text-align: center;
     margin: 0%;
-    max-height: calc(100%)
+    max-height: calc(100%);
+    
     
 } .principais:hover img {
 
@@ -213,14 +220,16 @@
 
     background-color: rgb(53, 53, 53);
     border-radius: 7px;
-    height: auto;
-    width: 300px;
+    height: 90%;
+    width: 90%;
     text-align: left;
     margin-bottom: 7%;
     position: relative;
     top: 30px;
-    display:inline-block;
+    
     margin-right: 60px;
+    display: flex;
+    flex-direction: column;
     
 
 } .h2_rodape {

@@ -40,7 +40,7 @@
     
 
 }  .nav-wrapper {
-    background-image: linear-gradient(to right, rgb(18, 32, 156), rgb(25, 15, 54));
+    background-image: linear-gradient(to right, rgb(105, 248, 205), rgb(3, 6, 129));
     align-items: center;
 
 } .inicio{
@@ -60,16 +60,16 @@
     
 
 } .side-nav {
-    background-image: linear-gradient(to right, rgb(18, 32, 156), rgb(25, 15, 54));
+    background-image: linear-gradient(to right, rgb(105, 248, 205), rgb(3, 6, 129));
     
 
 } ul.side-nav li:hover a {
-   color: rgb(255, 241, 41);
+   color: rgb(66, 255, 198);
    transition: all .1s;
 
 } .caixa {
     width: 100%;
-    background-image: linear-gradient(to right, rgb(18, 32, 156), rgb(25, 15, 54));
+    background-image: linear-gradient(to right, rgb(105, 248, 205), rgb(3, 6, 129));
     overflow: hidden;
 
 } .caixa img {
@@ -111,11 +111,11 @@
 } .trecho1 {
     width: 100%;
     height: 6px;
-    background-image: linear-gradient(to right, rgb(18, 32, 156), rgb(25, 15, 54));
+    background-image: linear-gradient(to right, rgb(105, 248, 205), rgb(3, 6, 129));
 } .trecho {
     width: 100%;
     height: 30px;
-    background-image: linear-gradient(to right, rgb(18, 32, 156), rgb(25, 15, 54));
+    background-image: linear-gradient(to right, rgb(105, 248, 205), rgb(3, 6, 129));
 
 } #sec {
     width: 100%;
@@ -190,8 +190,11 @@
 }.rodp{
     width: 100%;
     background-color: rgb(21, 18, 63);
-    max-height: calc(100%);
+    
     text-align: center;
+    justify-content: center;
+    
+    
     
 
 } .conter {
@@ -211,7 +214,7 @@
 } .principals{
 
     background-color: rgb(21, 18, 63);
-    border-radius: 7px;
+   
     height: auto;
     width: 300px;
     text-align: left;
